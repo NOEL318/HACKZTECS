@@ -1,0 +1,33 @@
+
+body{
+  margin: 0;
+  width: 100%;
+}
+
+.navbar{
+  background-color: rgba(70, 70, 70, 0.615);
+  backdrop-filter: blur(4px);
+  height: 44px;
+  width: 100%;
+}
+ul{
+  display: flex;
+justify-content: flex-end;
+  align-items: center;
+  width: auto;
+flex-direction: row;
+height: 44px;
+padding-right: 10%;
+margin: 0;
+}
+li{
+  
+  width: auto;
+  list-style: none;
+  padding: 5px 10px;
+  transition: all 0.3s;
+}
+li:hover{
+  scale: 1.2;
+}
+
